@@ -407,7 +407,7 @@ img {
     width: 250px;
     border-radius: .5rem;
     justify-self: center;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .about__description {
@@ -508,36 +508,28 @@ img {
     display: block;
     background-color: var(--first-color);
 }
-/*=== SKILL I ===*/
-.skills__html {
-    width: 70%;
-}
-.skills__css {
-    width: 60%;
-}
-.skills__js {
-    width: 60%;
-}
-.skills__react {
+/*=== SKILLS BACKEND ===*/
+.skills__php {
     width: 85%;
 }
-/*=== SKILL II ===*/
-.skills__php {
-    width: 75%;
-}
-.skills__laravel {
-    width: 75%;
-}
-.skills__mysql {
+.skills__express {
     width: 70%;
 }
-.skills__mariadb {
+/*=== SKILLS FRONTEND ===*/
+.skills__html {
     width: 60%;
 }
-/*=== SKILL III ===*/
-.skills__figma {
-    width: 90%;
+/*=== SKILL DATABASE ===*/
+.skills__mysql {
+    width: 80%;
 }
+.skills__mongodb {
+    width: 75%;
+}
+.skills__firebase {
+    width: 70%;
+}
+/*=== SKILL DATABASE ===*/
 .skills__raspi {
     width: 60%;
 }
