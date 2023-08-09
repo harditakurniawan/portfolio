@@ -510,10 +510,10 @@ img {
 }
 /*=== SKILLS BACKEND ===*/
 .skills__php {
-    width: 85%;
+    width: 80%;
 }
-.skills__express {
-    width: 70%;
+.skills__nodejs {
+    width: 85%;
 }
 /*=== SKILLS FRONTEND ===*/
 .skills__html {
@@ -524,7 +524,7 @@ img {
     width: 80%;
 }
 .skills__mongodb {
-    width: 75%;
+    width: 80%;
 }
 .skills__firebase {
     width: 70%;
