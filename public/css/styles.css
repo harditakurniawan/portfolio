@@ -508,31 +508,6 @@ img {
     display: block;
     background-color: var(--first-color);
 }
-/*=== SKILLS BACKEND ===*/
-.skills__php {
-    width: 80%;
-}
-.skills__nodejs {
-    width: 85%;
-}
-/*=== SKILLS FRONTEND ===*/
-.skills__html {
-    width: 60%;
-}
-/*=== SKILL DATABASE ===*/
-.skills__mysql {
-    width: 80%;
-}
-.skills__mongodb {
-    width: 80%;
-}
-.skills__firebase {
-    width: 70%;
-}
-/*=== SKILL DATABASE ===*/
-.skills__raspi {
-    width: 60%;
-}
 
 .skills__close .skills__list {
     height: 0;
