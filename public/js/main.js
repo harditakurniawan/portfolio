@@ -190,14 +190,3 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
-
-// set total skills dynamically
-const startWork = new Date('2020-03-01');
-const currentDate = new Date();
-const totalMonths = (currentDate.getFullYear() - startWork.getFullYear()) * 12 + (currentDate.getMonth() - startWork.getMonth());
-const totalWorkExperiences = Math.floor(totalMonths / 12);
-const remainingMonths = totalMonths % 12;
-const totalCompanyWorked = document.querySelectorAll('#work .qualification__data').length -2;
-document.querySelectorAll('.about__info-title')[0].innerText = totalWorkExperiences
-document.querySelectorAll('.about__info-title')[2].innerText = totalCompanyWorked
-document.querySelector('.home__description').innerHTML = `Experienced backend developer with a ${totalWorkExperiences} years proven track record in the industry. Recognized for being a fast learner and dedicated professional. Highly motivated to continuously expand knowledge and skills to stay up-to-date with the latest technology advancements. Strong ability to quickly adapt to new programming languages and confidently tackle any technical challenge.`;
